@@ -1,0 +1,12 @@
+langchain>=0.1.0
+langchain-google-genai>=0.1.0
+langchain-community>=0.0.10
+langchain-text-splitters>=0.0.1
+faiss-cpu>=1.7.4
+pypdf>=3.0.0
+python-dotenv>=1.0.0
+numpy>=1.23.5,<2.3
+huggingface-hub>=0.21.0
+python-docx>=0.8.11
+openpyxl>=3.0.0
+ebooklib>=0.5

@@ -1,0 +1,35 @@
+=== RAG App Log 2026-04-05 17:21:45.461987 ===
+
+============================================================
+RAG Application Started
+============================================================
+PDF Folder: my_pdfs
+Chunk Size: 500, Overlap: 50
+Top K: 3
+Embedding: gemini-embedding-001
+LLM: gemini-2.5-flash-lite
+============================================================
+
+DEBUG: Checking folder: C:\OpenCode\MyRAG\my_pdfs
+DEBUG: Folder exists: True
+DEBUG: Found 0 files
+No PDF files found in my_pdfs
+No PDF documents found. Please put PDF files in my_pdfs folder
+=== RAG App Log 2026-04-05 17:30:37.456351 ===
+
+============================================================
+RAG Application Started
+============================================================
+PDF Folder: my_pdfs
+Chunk Size: 500, Overlap: 50
+Top K: 3
+Embedding: gemini-embedding-001
+LLM: gemini-2.5-flash-lite
+============================================================
+
+DEBUG: Checking folder: C:\OpenCode\MyRAG\my_pdfs
+DEBUG: Folder exists: True
+DEBUG: Found 0 files
+No supported files found in my_pdfs
+Supported formats: PDF, TXT, DOCX, XLSX, EPUB
+No PDF documents found. Please put PDF files in my_pdfs folder

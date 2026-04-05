@@ -1,0 +1,39 @@
+你是一个专业的Python开发者，请帮我写一个完整的RAG（检索增强生成）应用代码。
+
+## 技术栈要求：
+- 框架：LangChain + OpenCode
+- Embedding模型：Google Gemini Embedding (gemini-embedding-001)
+- LLM模型：Google Gemini (gemini-2.5-flash-lite，最便宜的版本)
+- 向量数据库：FAISS（本地存储，免费）
+- 文档加载：支持PDF文件
+
+## 功能要求：
+1. 读取指定文件夹中的所有PDF文件（支持500页以上）
+2. 自动分割文本（chunk_size=500, overlap=50）
+3. 使用Gemini Embedding API生成向量并存入本地FAISS数据库
+4. 实现交互式问答功能
+5. 支持向量库持久化（下次运行直接加载，无需重新embedding）
+6. 检索时返回最相关的3个文本块
+
+## 成本控制要求：
+- 必须使用Google AI Studio的免费API额度
+- Embedding过程一次完成，结果本地缓存
+- LLM使用gemini-2.5-flash-lite（免费版本）
+
+## 代码要求：
+- 包含完整的import语句
+- 包含错误处理
+- 包含环境变量配置（GOOGLE_API_KEY）
+- 包含进度提示输出
+- 添加详细的注释说明每一步的作用
+- 提供requirements.txt依赖文件
+
+## 目录结构：
+my_project/
+├── rag_app.py      # 主程序
+├── requirements.txt # 依赖
+├── .env            # API密钥
+└── my_pdfs/        # 放PDF的文件夹
+
+请输出完整的代码和配置说明。
+并把这个prompt输出文件，加时间后缀
